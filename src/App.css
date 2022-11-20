@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.App select {
+  margin-top: 30px;
+  margin-right: 5px;
+}
+
+.App input {
+  margin: 10px;
+}
+
+input[type="file" i] {
+  color: white;
+}
+
+.App button {
+  margin: 20px 5px;
+}
+
+.App .meme-result {
+  width: 100%;
+  height: 400px;
+}
+
+.meme-result span {
+  font-size: 54px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 3px black;
+}
+
+.meme-result .line1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 40px;
+}
+
+.meme-result .line2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 310px;
+}
+
+.App .meme {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
